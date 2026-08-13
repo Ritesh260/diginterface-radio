@@ -4,6 +4,16 @@ import { useEffect, useRef, useState } from "react";
 
 const songs = [
   {
+    title: "Munni Badnaam",
+    artist: "Aishwarya Nigam & Mamta Sharma",
+    videoId: "08ssSX67vWs",
+  },
+   {
+    title: "Fevicol Se",
+    artist: "Mamta Sharma | Wajid | Back Up Vocals : Keerthi Sagathia | Uvie | Shadab Faridi• Dabangg2",
+    videoId: "QCc6Vo8_gKU",
+  },
+  {
     title: "Shanivaar Raati",
     artist: "ARIJIT SINGH, SHALMALI KHOLGADE, SAJID-WAJID& KUMAAR • MAIN TERA HERO • 2014",
     videoId: "qY66m8UosfQ",
@@ -29,15 +39,11 @@ const songs = [
     videoId: "NvAMPqIcn-I",
   },
   {
-    title: "Song 6",
-    artist: "PALAT - TERA HERO IDHAR HAI",
+    title: "PALAT - TERA HERO IDHAR HAI",
+    artist: "ARIJIT SINGH, SAJID-WAJID, KAUSAR MUNIR & DANISH SABRI • MAIN TERA HERO • 2014",
     videoId: "t9o22bt6VU0",
   },
-  {
-    title: "Fevicol Se",
-    artist: "Mamta Sharma | Wajid | Back Up Vocals : Keerthi Sagathia | Uvie | Shadab Faridi• Dabangg2",
-    videoId: "QCc6Vo8_gKU",
-  },
+ 
   {
     title: "Balma",
     artist: "Shreya Ghoshal & Sriram • The Second Best Exotic Marigold Hotel (Original Motion Picture Soundtrack) ",
@@ -48,11 +54,7 @@ const songs = [
     artist: "Badshah, Indeep Bakshi & Akriti Kakar • Saturday Saturday (From Humpty Sharma Ki Dulhania)",
     videoId: "GHCXVJe2re4",
   },
-  {
-    title: "Munni Badnaam",
-    artist: "Aishwarya Nigam & Mamta Sharma",
-    videoId: "08ssSX67vWs",
-  },
+  
 ];
 
 export default function Home() {
